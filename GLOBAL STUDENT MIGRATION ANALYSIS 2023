@@ -1,0 +1,122 @@
+GLOBAL STUDENT MIGRATION ANALYSIS 2023
+
+Introduction
+The rise of international education has transformed the global academic landscape, with students pursuing opportunities beyond borders for better education, exposure, and career prospects.
+This analysis dives into student migration patterns for 2023, highlighting visa trends, scholarships, placements, and salary outcomes from a dataset of 5,000 students.
+
+Story of Data
+The dataset captures real-world migration dynamics from countries offering the most scholarships to preferred study destinations, language proficiency scores, and post-graduation placements.
+It reflects how educational mobility continues to shape global economies and workforce structures.
+
+Data Splitting and Preprocessing
+Projects Split
+
+Independent Variables
+origin country
+destination country
+destination city
+university name
+course name
+field of study
+placement country
+placement company
+
+Dependent Variables
+year of enrollment
+scholarship received
+enrollment reason
+graduation year
+placement status
+starting salary usd
+gpa or score
+visa status
+post-graduation visa
+language proficiency test
+test score
+Grades
+Test Grade
+
+The dataset was cleaned and organized into segments
+Demographics: Country, university, and visa types
+Academic details: Test scores, grades, and scholarships
+Post-graduation data: Placement status, salary, and visa type
+Categorical segmentation: Countries, fields of study, and company names
+Data cleaning ensured removal of duplicates and normalization of categorical variables for consistent analysis.
+
+Column appended
+Grades (g.p.a scores was graded according to performance)
+Test grades were graded according to the score
+
+Pre-Analysis
+Before deep analysis, key questions were outlined:
+Top 5 country Count of scholarship received
+5 Language Count of test score
+5 counts of Placement company with university name
+Grade Count for post-graduation
+Count of Placement status with field of study
+Top 3 count of university with test score
+Sum of Starting Salaries for each country
+
+In-analysis
+Using Excel, the data was explored through Data Visualization and Pivot Table to identify:
+Distribution of students per country
+Patterns in language test scores
+Relationship between field of study and placement
+Visa types and migration preferences
+
+Post-Analysis and Insights
+📌 Top 5 Countries for Scholarships:
+Russia, Germany, Canada, USA, and Ireland — indicating strong academic funding support in Europe and North America.
+
+📌 Top Visa Type:
+Schengen Student Visa — showing Europe’s dominance in global education mobility.
+
+📌 Highest Enrollment Reason:
+Quality of Life — many students prioritize lifestyle, safety, and post-study benefits alongside academics.
+
+📌 Placement Trends:
+
+Microsoft, Amazon, Google, and Apple were top recruiters.
+Social Sciences and Engineering had the highest placement counts.
+📌 Salary Insights:
+The highest starting salaries were recorded in the UK, Russia, and India, highlighting global diversity in compensation levels.
+
+Data Visualizations & Charts
+The visuals include:
+Scholarship distribution by country
+Test score comparison across regions
+Placement count by company and field
+Post-study visa preferences
+Average starting salary across nations
+Count of Placement status with field of study
+Top 3 count of university with test score
+These visuals helped reveal underlying migration and employment patterns that might not be visible through raw numbers.
+
+Recommendations and Observations
+For Students: Prioritize regions with higher scholarship access and post-graduation placement opportunities.
+For Institutions: Strengthen career support systems for international students.
+For Policymakers: Streamline visa pathways and encourage global academic exchange through partnership programs.
+Improve Placement Data Tracking
+A large portion of students (2,491) have N/A placement company. Strengthen data collection from alumni and partner universities to better track employment outcomes.
+Build stronger partnerships with top recruiters (Microsoft, Amazon, Google, Apple) to increase placement opportunities.
+5. Scholarship Effectiveness Analysis
+
+Conduct a comparative study of students with vs. without scholarships to see how it impacts their salary and placement.
+Use these findings to design better scholarship-targeting strategies (e.g., prioritize fields with low placement but high potential, like Arts or Medicine).
+6 . Enhance Language Training Programs
+
+Many students take IELTS/Duolingo, but a significant number take no test. Universities should provide language prep programs to boost employability abroad.
+Track whether higher language test scores lead to higher salaries and prioritize test coaching for target countries like UK, Germany, and Russia.
+7. Visa Strategy Optimization
+
+Since Schengen Student Visa is the most common, create tailored guidance for students heading to Europe—especially regarding post-study work visas.
+Compare salary/placement outcomes across visa types to advise students on which destination offers the best ROI.
+Conclusion
+This analysis underscores that education mobility goes beyond classrooms — it’s a data-driven reflection of ambition, opportunity, and global connectivity.
+As trends continue evolving, data analytics remains essential to understanding how education shapes economies and individuals alike.
+
+References & Appendices
+Dataset Source: Kaggle
+Institution: Vephla University.
+Visualization Tool: Excel, Pivot Table, Pivot Charts.
+Analyst: Glory Olatunde
